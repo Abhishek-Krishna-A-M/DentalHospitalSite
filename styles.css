@@ -765,10 +765,16 @@ main > section > article {
 
 /* Extra small devices */
 @media (max-width: 480px) {
+  .navbar-brand img{
+    height:35px;
+    width:auto;
+  }
+  .navbar-brand h5{
+    font-size:0.95rem;
+  }
   .team-member {
     padding: 1rem;
   }
-  
   .team-member img {
     width: 100px;
     height: 100px;
