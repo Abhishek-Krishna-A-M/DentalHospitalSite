@@ -81,7 +81,14 @@ img {
   background-color: rgba(42, 157, 143, 0.2);
   font-weight: 600;
 }
-
+.navbar-toggler {
+  box-shadow: none !important;
+  outline: none !important;   
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 2px rgba(42, 157, 143, 0.4) !important;
+  outline: none !important;
+}
 /* Responsive Main Content */
 main {
   padding: 1.5rem;
@@ -794,5 +801,12 @@ main > section > article {
   
   section {
     margin-bottom: 2rem;
+  }
+  .t\&c{
+    display: flex;
+    flex-direction: column;
+  }
+  .t\&c a{
+    margin:5px
   }
 }
